@@ -12,4 +12,3 @@ if __name__ == "__main__":
         print("{} argument{}:".format(num_args, plural))
         for i, arg in enumerate(args, start=1):
             print("{}: {}".format(i, arg))
-
