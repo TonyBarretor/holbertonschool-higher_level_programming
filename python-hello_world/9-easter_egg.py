@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 
-with open("text.txt", "r") as file:
+with open("text", "r", encoding="utf-8") as file:
     print(file.read())
