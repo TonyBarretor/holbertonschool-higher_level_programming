@@ -3,11 +3,11 @@
 def pow(a, b):
     """
     Computes the value of a to the power of b.
-    
+
     Args:
     - a: base
     - b: exponent
-    
+
     Returns:
     - The value of a ^ b
     """
