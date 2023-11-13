@@ -1,4 +1,11 @@
 #!/usr/bin/python3
+def print_matrix_integer(matrix=[[]]):
+        if not matrix:
+            return
 
-def no_c(my_string):
-        return ''.join([char for char in my_string if char.lower() != 'c'])
+        for row in matrix:
+            for i, num in enumerate(row):
+                print("{:d}".format(num), end=" ")
+                if i != len(row) - 1:
+                    print(" ", end=" ")
+            print()
