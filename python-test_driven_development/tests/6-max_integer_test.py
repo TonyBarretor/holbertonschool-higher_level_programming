@@ -2,7 +2,7 @@
 """Unittest for max_integer([..])
 """
 import unittest
-max_integer = __import__('6-max_integer').max_integer
+max_integer = __import__('6-max_integer_6').max_integer
 
 class TestMaxInteger(unittest.TestCase):
 
@@ -26,6 +26,9 @@ class TestMaxInteger(unittest.TestCase):
 
     def test_mixed_numbers(self):
         self.assertEqual(max_integer([-5, 0, 5, 10]), 10)
+
+    def test_single_element_list(self):
+        self.assertEqual(max_integer([5]), 10)
 
 if __name__ == '__main__':
     unittest.main()
