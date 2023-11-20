@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+class Square:
 """
 Module 0-square: Defines an empty Square class.
 
@@ -26,5 +27,4 @@ Usage:
 """
 
 
-class Square:
     pass
