@@ -25,5 +25,6 @@ Usage:
     # Access the dictionary containing the object's attributes.
 """
 
+
 class Square:
     pass
