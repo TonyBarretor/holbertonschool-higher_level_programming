@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 class Square:
-"""
+
+    """
 Module 0-square: Defines an empty Square class.
 
 This module contains the definition of an empty Square class. The class serves
@@ -25,6 +26,4 @@ Usage:
     print(square_instance.__dict__)
     # Access the dictionary containing the object's attributes.
 """
-
-
     pass
