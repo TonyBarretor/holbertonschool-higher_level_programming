@@ -4,20 +4,16 @@
 
 ====================
 
-Defines the Square class.
-
-This module contains the definition of the Square class. The class serves
-as a placeholder for future implementations of a square, providing a foundation
-for potential attributes and methods related to squares.
+This module defines the Square class.
 
 Classes:
     Square: An empty class representing a square.
 
 Attributes:
-    No attributes are explicitly defined in this module.
+    None.
 
 Methods:
-    No methods are explicitly defined in this module.
+    None.
 
 Usage:
     from 0-square import Square
@@ -38,10 +34,10 @@ class Square:
     It provides a foundation for potential attributes and methods related to squares.
 
     Attributes:
-        No attributes are explicitly defined in this class.
+        None.
 
     Methods:
-        No methods are explicitly defined in this class.
+        None.
     """
 
     pass
