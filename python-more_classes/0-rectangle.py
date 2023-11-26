@@ -26,4 +26,3 @@ class Rectangle:
     Methods: None.
     """
     pass
-i
