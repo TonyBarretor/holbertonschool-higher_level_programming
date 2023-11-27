@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-"""Defines a Rectangle class with width and height attributes"""
+"""Defines a Rectangle class with width, height, area, and perimeter"""
 
 
 class Rectangle:
     """Rectangle class with width and height attributes"""
     def __init__(self, width=0, height=0):
-        """Initializes a Rectangle instance with optional width and height"""
+        """Initializes Rectangle instance with optional width and height"""
         self.width = width
         self.height = height
 
@@ -36,3 +36,21 @@ class Rectangle:
         if value < 0:
             raise ValueError("height must be >= 0")
         self.__height = value
+
+    def area(self):
+        """Calculate and return the rectangle area"""
+        return self.width * self.height
+
+    def perimeter(self):
+        """Calculate and return the rectangle perimeter"""
+        return 2 * (self.width + self.height)
+
+    def __str__(self):
+        """Return a string representation of the rectangle"""
+        if self.width == 0 or self.height == 0:
+            return ""
+        return '\n'.join(['#' * self.width for _ in range(self.height)])
+
+    def __repr__(self):
+        """Return a string representation of the object"""
+        return f"Rectangle({self.width}, {self.height})"
