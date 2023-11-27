@@ -1,0 +1,15 @@
+# Test cases for Square class
+>>> Square = __import__('11-square').Square
+>>> s = Square(13)
+
+# Check if str() returns the correct description
+>>> str(s)
+'[Square] 13/13'
+
+# Check if print() outputs the correct description
+>>> print(s)
+[Square] 13/13
+
+# Check if area() returns the correct area
+>>> s.area()
+169
