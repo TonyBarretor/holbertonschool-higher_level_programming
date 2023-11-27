@@ -1,0 +1,8 @@
+# Test cases for is_same_class function
+>>> is_same_class(1, int)
+True
+>>> is_same_class(1, float)
+False
+>>> is_same_class(1, object)
+False
+
