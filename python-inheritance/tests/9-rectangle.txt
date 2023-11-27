@@ -1,0 +1,15 @@
+# Test cases for Rectangle class
+>>> Rectangle = __import__('9-rectangle').Rectangle
+>>> r = Rectangle(3, 5)
+
+# Check if str() returns the correct description
+>>> str(r)
+'[Rectangle] 3/5'
+
+# Check if print() outputs the correct description
+>>> print(r)
+[Rectangle] 3/5
+
+# Check if area() returns the correct area
+>>> r.area()
+15

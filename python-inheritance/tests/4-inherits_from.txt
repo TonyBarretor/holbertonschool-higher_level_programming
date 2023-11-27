@@ -1,0 +1,7 @@
+# Test cases for inherits_from function
+>>> inherits_from(True, int)
+True
+>>> inherits_from(True, bool)
+True
+>>> inherits_from(True, object)
+True
